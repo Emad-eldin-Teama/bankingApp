@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="investmentViewModel"
+            type="com.example.cache.ui.investment.InvestmentViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.investment.InvestmentAccountFragment">
+
+        <ViewFlipper
+            android:id="@+id/view_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoStart="false"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <include
+                android:id="@+id/investment_accounts_view"
+                layout="@layout/view_investment_accounts"
+                app:investmentViewModel="@{investmentViewModel}"/>
+
+            <include
+                android:id="@+id/investments_view"
+                layout="@layout/view_investments"
+                app:investmentViewModel="@{investmentViewModel}"/>
+
+            <include
+                android:id="@+id/stock_details_view"
+                layout="@layout/view_stock_details"
+                app:investmentViewModel="@{investmentViewModel}" />
+
+            <include
+                android:id="@+id/stock_order_view"
+                layout="@layout/view_stock_order"
+                app:investmentViewModel="@={investmentViewModel}" />
+
+        </ViewFlipper>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

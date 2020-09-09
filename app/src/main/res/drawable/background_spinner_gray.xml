@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <color android:color="@color/gray_three" />
+            </item>
+            <item
+                android:drawable="@drawable/ic_down_arrow_tealish"
+                android:gravity="center_vertical|right" />
+        </layer-list>
+    </item>
+</selector>

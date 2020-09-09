@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/layer_ic_up_arrow_tealish"
+        android:state_expanded="true" />
+
+    <item
+        android:drawable="@drawable/layer_ic_down_arrow_tealish"
+        android:state_expanded="false" />
+</selector>

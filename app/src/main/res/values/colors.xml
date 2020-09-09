@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bright_yellow">#fef200</color>
+    <color name="tealish">#2cbda8</color>
+    <color name="black_two">#181818</color>
+    <color name="gray_one">#4d4d4d</color>
+    <color name="gray_two">#747474</color>
+    <color name="gray_three">#f3f3f3</color>
+    <color name="white_two">#fafafa</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_divider">#f0eded</color>
+    <color name="red">#ce4f4f</color>
+
+</resources>

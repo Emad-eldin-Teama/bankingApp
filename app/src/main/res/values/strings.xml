@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Cache</string>
+    <string name="title_home">Home</string>
+    <string name="title_accounts">Accounts</string>
+    <string name="title_move_money">Move Money</string>
+    <string name="title_account">Account</string>
+    <string name="title_transfer">Transfer Money</string>
+    <string name="title_accounts_open">Open an Account</string>
+    <string name="title_accounts_products_chequing">Chequing Accounts</string>
+    <string name="title_accounts_products_savings">Savings Accounts</string>
+    <string name="title_investment">Investment Portfolio</string>
+    <string name="title_investment_tab_account">Account</string>
+    <string name="title_investment_tab_watchlist">Watchlist</string>
+    <string name="title_investment_tab_quote">Quote</string>
+
+    <string name="heading_accounts_overview">Accounts Overview</string>
+    <string name="heading_investment_accounts">Investment Accounts</string>
+    <string name="heading_banking">Banking</string>
+    <string name="heading_investments">Investments</string>
+    <string name="heading_account_details">Details</string>
+    <string name="heading_account_transactions">Transactions</string>
+    <string name="heading_account_information">Account Information</string>
+
+    <string name="label_accounts_totals">Total:</string>
+    <string name="label_investment_account_total">Total</string>
+    <string name="label_investment_account_savings">Savings</string>
+    <string name="label_account_name">Name</string>
+    <string name="label_account_number">Account Number</string>
+    <string name="label_account_transit_number">Transit Number</string>
+    <string name="label_account_institution_number">Institution Number</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_stock_ask">Ask</string>
+    <string name="label_stock_high">High</string>
+    <string name="label_stock_low">Low</string>
+    <string name="label_stock_open">Open</string>
+    <string name="label_stock_volume">Vol</string>
+    <string name="label_stock_last_trade">Last Trade</string>
+    <string name="label_stock_previous_close">Prev close</string>
+    <string name="label_stock_change">Change</string>
+    <string name="label_stock_change_percent">%Change</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_order_type">Order type</string>
+    <string name="label_account">Account</string>
+    <string name="label_stock_price">Price</string>
+    <string name="label_stock_type">Type</string>
+    <string name="label_order_total">Total</string>
+
+    <string name="hint_amount">0.00</string>
+    <string name="hint_quantity">0</string>
+
+    <string name="text_home_greeting_morning">Good morning,</string>
+    <string name="text_home_greeting_afternoon">Good afternoon,</string>
+    <string name="text_home_greeting_evening">Good evening,</string>
+    <string name="text_home_greeting_night">Good night,</string>
+    <string name="text_home_greeting_fallback">Hello,</string>
+    <string name="text_account_number_last_4_digits">(%1$s)</string>
+    <string name="text_view_statements">View Statements</string>
+    <string name="text_recent">Recent</string>
+    <string name="text_instant_transfer">This is an instant transfer.</string>
+    <string name="text_accounts_open_prompt">What are you looking for?</string>
+    <string name="text_chequing_description">For your daily banking needs</string>
+    <string name="text_savings_description">To earn interest on your money</string>
+
+    <string-array name="text_account_features_chequing_vip">
+        <item>Monthly Fee: $30.00</item>
+        <item>Unlimited debits in Canada &amp; cross border debits</item>
+        <item>Up to $120 per year credit card rebate</item>
+    </string-array>
+
+    <string-array name="text_account_features_chequing_no_limit">
+        <item>Monthly Fee: $16.95</item>
+        <item>Unlimited transactions for your peace of mind</item>
+        <item>No fees on any ATM in Canada</item>
+    </string-array>
+
+    <string-array name="text_account_features_chequing_day_to_day">
+        <item>Monthly Fee: $10.95</item>
+        <item>25 transactions per month</item>
+        <item>Free Interac e-Transfer transactions</item>
+    </string-array>
+
+    <string-array name="text_account_features_chequing_borderless">
+        <item>Monthly Fee: $4.95 US</item>
+        <item>$3,000 US minimum monthly balance for monthly fee rebate</item>
+        <item>Unlimited transactions per month</item>
+    </string-array>
+
+    <string-array name="text_account_features_savings_premium">
+        <item>Monthly Fee: $0</item>
+        <item>High interest rate on balances of $10,000 or more</item>
+        <item>Unlimited free online transfers to your other deposit accounts</item>
+    </string-array>
+
+    <string-array name="text_account_features_savings_everyday">
+        <item>Monthly Fee: $0</item>
+        <item>Every dollar earns interested calculated daily</item>
+        <item>1 transaction per month</item>
+    </string-array>
+
+    <string-array name="text_account_features_savings_high_interest">
+        <item>Monthly Fee: $0</item>
+        <item>High interest rate on balances of $5,000 or more</item>
+        <item>Waived transaction fees with minimum monthly balance</item>
+    </string-array>
+
+    <string name="content_description_close">Close</string>
+    <string name="content_description_settings">Settings</string>
+    <string name="content_description_more">More</string>
+    <string name="content_description_details">Details</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_account_type">Account Type</string>
+    <string name="content_description_back">Back</string>
+    <string name="content_description_add">Add</string>
+
+    <string name="button_continue">Continue</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_open_account">Open this account</string>
+    <string name="button_buy_sell">Buy / Sell</string>
+    <string name="button_buy">Buy</string>
+    <string name="button_sell">Sell</string>
+
+    <string name="dialog_title_transfer_incomplete">Transfer not completed</string>
+    <string name="dialog_title_transfer_confirmation">Transfer confirmation</string>
+    <string name="dialog_title_transfer_complete">Transfer completed</string>
+    <string name="dialog_title_open_account_confirmation">Open account confirmation</string>
+    <string name="dialog_message_open_account_confirmation">Open %1$s?</string>
+    <string name="dialog_title_order_incomplete">Order not completed</string>
+    <string name="dialog_title_order_confirmation">Order confirmation</string>
+    <string name="dialog_title_order_complete">Order completed</string>
+
+    <string name="menu_open_account">Open an account</string>
+    <string name="menu_manage_stocks">Manage stocks</string>
+
+    <string name="clear">Clear</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

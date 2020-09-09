@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tealish</item>
+        <item name="colorPrimaryDark">@color/black_two</item>
+        <item name="colorAccent">@color/bright_yellow</item>
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black_two</item>
+        <item name="android:listDivider">@drawable/list_divider_inset</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/bottom_navigation_tab_item_foreground</item>
+        <item name="itemTextColor">@color/bottom_navigation_tab_item_foreground</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/AlertDialogTitle</item>
+        <item name="buttonBarButtonStyle">@style/AlertDialogButton</item>
+    </style>
+
+    <style name="AlertDialogTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AlertDialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tealish</item>
+    </style>
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

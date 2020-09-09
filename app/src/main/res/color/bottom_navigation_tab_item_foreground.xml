@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/tealish" />
+    <item android:color="@color/gray_one" />
+    <color android:name="colorPrimary">#6200EE</color>
+    <color android:name="colorPrimaryDark">#3700B3</color>
+    <color android:name="colorAccent">#03DAC5</color>
+    <color android:name="gray">#d4d3d3</color>
+    <color android:name="white">#ffffff</color>
+    <color android:name="blue">#0f0fbd</color>
+    <color android:name="red">#ec1313</color>
+    <color android:name="lightBlue">#80ffff</color>
+</selector>
